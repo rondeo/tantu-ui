@@ -1,0 +1,65 @@
+{
+  "name": "tantu-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoxiaoxiao-s/tantu-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoxiaoxiao-s/tantu-ui/issues"
+  },
+  "homepage": "https://github.com/xiaoxiaoxiao-s/tantu-ui#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "install": "^0.12.2",
+    "node-sass": "^4.12.0",
+    "npm": "^6.9.0",
+    "react": "^16.8.6",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "tslint-config-alloy": "^0.2.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "typings-for-css-modules-loader": "^1.7.0",
+    "underscore-contrib": "^0.3.0"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "autoprefixer": "^9.6.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "chalk": "^2.4.2",
+    "connect-history-api-fallback": "^1.6.0",
+    "express": "^4.17.1",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "http-proxy-middleware": "^0.19.1",
+    "opn": "^6.0.0",
+    "ora": "^3.4.0",
+    "path": "^0.12.7",
+    "react-dom": "^16.8.6",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.0.2",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.1",
+    "webpack": "^4.33.0",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-dev-server": "^3.7.1",
+    "webpack-merge": "^4.2.1",
+    "yargs": "^13.2.4"
+  }
+}
