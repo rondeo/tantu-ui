@@ -32,12 +32,20 @@ $list-item-cls: '#{$prefix-cls}-list-item';
     }
   }
 
+  .header, .footer {
+    padding: 15px;
+    font-size: 14px;
+    color: #888;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
   .header {
-    // todo
+    padding-bottom: 9px;
   }
 
   .footer {
-    // todo
+    padding-top: 9px;
   }
 }
 
