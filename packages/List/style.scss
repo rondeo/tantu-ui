@@ -54,7 +54,8 @@ $list-item-cls: '#{$prefix-cls}-list-item';
   position: relative;
   display: flex;
   align-items: center;
-  padding-left: 15px;
+  justify-content: space-between;
+  padding: 0 15px;
   overflow: hidden;
   min-height: 44px;
 
@@ -84,5 +85,12 @@ $list-item-cls: '#{$prefix-cls}-list-item';
 
   .content-wrap {
 
+  }
+
+  .arrow {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    text-align: right;
   }
 }

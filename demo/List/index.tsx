@@ -27,6 +27,7 @@ export default function ListPage() {
           header={(<strong>可点击</strong>)}
         >
           <List.Item
+            arrow='right'
             onClick={() => {
               alert(1);
             }}
@@ -34,6 +35,7 @@ export default function ListPage() {
             alert(1)
           </List.Item>
           <List.Item
+            arrow='bottom'
             onClick={() => {
               alert(2);
             }}
