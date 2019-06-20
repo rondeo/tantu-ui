@@ -14,7 +14,9 @@ export interface Props {
 
 export default function ListItem(props: Props) {
   const {className, children, ...rest} = props;
-  const cls = classNames(className, prefixClass('list-item'));
+  const cls = classNames(className, prefixClass('list-item'), {
+    [prefixClass('list-item-enable-active')]: !!rest.onClick
+  });
 
   return (
     <div {...rest} className={cls}>

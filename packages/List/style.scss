@@ -68,8 +68,10 @@ $list-item-cls: '#{$prefix-cls}-list-item';
     background-color: #ddd;
   }
 
-  &:active {
-    background-color: #ddd;
+  &-enable-active {
+    &:active {
+      background-color: #ddd;
+    }
   }
 
   .content-wrap {

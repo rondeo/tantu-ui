@@ -1,16 +1,19 @@
 
 import * as React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
-import NotFound from './NotFound';
-import Homepage from './Homepage';
+import pages from './pages';
 
 export default function Router() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={Homepage} />
-        <Route component={NotFound} />
+        {pages.map((item) => {
+          const {name, component, ...route} = item;
+          const key = `${name}`;
+          const Page = component;
+
+          return (<Route key={key} component={Page} {...route} />);
+        })}
       </Switch>
     </BrowserRouter>
   );
