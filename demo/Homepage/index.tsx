@@ -27,9 +27,15 @@ function Homepage(props: Props) {
           const key = `${name}`;
 
           return (
-            <List.Item key={key} onClick={() => {
-              history.push(path);
-            }}>{name}</List.Item>
+            <List.Item
+              key={key}
+              arrow='right'
+              onClick={() => {
+                history.push(path);
+              }}
+            >
+              {name}
+            </List.Item>
           );
         })}
       </List>
