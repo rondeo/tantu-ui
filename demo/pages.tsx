@@ -1,6 +1,7 @@
 import Homepage from './Homepage';
 import ListPage from './List';
 import NotFoundPage from './NotFound';
+import ButtonPage from './Button';
 
 const config: Array<{
   name?: string;
@@ -13,6 +14,12 @@ const config: Array<{
     path: '/list',
     exact: true,
     component: ListPage
+  },
+  {
+    name: 'Button',
+    path: '/button',
+    exact: true,
+    component: ButtonPage
   },
   {
     name: 'Homepage',
