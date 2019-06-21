@@ -1,0 +1,96 @@
+
+@import '../style/config.scss';
+
+$list-cls: '#{$prefix-cls}-list';
+$list-item-cls: '#{$prefix-cls}-list-item';
+
+.#{$list-cls} {
+
+
+  .body {
+    position: relative;
+    background-color: #fff;
+
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      z-index: 1;
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-color: #ddd;
+    }
+
+    &:before {
+      top: 0;
+      left: 0;
+    }
+
+    &:after {
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  .header, .footer {
+    padding: 15px;
+    font-size: 14px;
+    color: #888;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .header {
+    padding-bottom: 9px;
+  }
+
+  .footer {
+    padding-top: 9px;
+  }
+}
+
+
+.#{$list-item-cls} {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  overflow: hidden;
+  min-height: 44px;
+
+  &:first-child {
+    &:before {
+      content: none;
+    }
+  }
+
+  &:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    z-index: 1;
+    background-color: #ddd;
+  }
+
+  &-enable-active {
+    &:active {
+      background-color: #ddd;
+    }
+  }
+
+  .content-wrap {
+
+  }
+
+  .arrow {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    text-align: right;
+  }
+}
