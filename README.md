@@ -1,6 +1,18 @@
 # tantu-ui
 
+组件参考：https://mobile.ant.design/docs/react/introduce-cn
 
+typescript文档：https://www.tslang.cn/docs/home.html
+
+---
+
+## 组件开发进度
+
+- [x] List 家泳
+- [ ] Button 家泳
+- [ ] Flex ??
+- [ ] WingBlank ??
+- [ ] WhiteSpace ??
 
 ## 快速开始
 
@@ -34,10 +46,9 @@ TODO
 2. 创建新分支开发
 3. 开发组件和demo页面
 4. 请求develop分支合并（pull request）
-5. reviewer 审查代码
-6. 合并代码
-7. 小组内分享代码
-8. 记录开发过程的痛点
+5. 合并代码
+6. 小组内review代码
+7. 记录开发过程的痛点
 
 ## 编码痛点
 
