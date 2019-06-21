@@ -6,9 +6,9 @@ import Item from './Item';
 import './style.scss'
 
 export interface Props {
-  header?: JSX.Element[] | JSX.Element;
-  footer?: JSX.Element[] | JSX.Element;
-  children: JSX.Element[] | JSX.Element | string;
+  header?: React.ReactChild;
+  footer?: React.ReactChild;
+  children: React.ReactChild | React.ReactFragment;
   className?: string;
 };
 
